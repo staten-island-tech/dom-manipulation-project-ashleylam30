@@ -4,6 +4,12 @@ const DOMSelectors = {
   button: document.getElementById("btn"),
   text: document.querySelector("#text"),
   point: document.querySelectorAll(".point"),
-  pointTwo: document.getElementById(),
+  box: document.getElementById("bigblackbox"),
 };
-console.log(DOMSelectors.point);
+
+function backgroundAndText(background, text) {
+  background.style.backgroundColor = "blue";
+  text.innerHTML = "This is now a big blue box";
+  text.style.fontSize = "50px";
+}
+backgroundAndText(DOMSelectors.box, DOMSelectors.text);
