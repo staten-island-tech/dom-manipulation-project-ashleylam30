@@ -18,3 +18,6 @@ const div = document.createElement("div");
 div.innerHTML = "<strong>SLAY CAPYBARA MEOW</strong>";
 
 body.append(div);
+
+const DOMSelectors = {};
+const div = document.getElementById();
