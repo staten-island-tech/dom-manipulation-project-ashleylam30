@@ -6,7 +6,7 @@ const DOMSelectors = {
 };
 
 function createElement() {
-  let;
+  document.createElement;
 }
 
 // function backgroundAndText(background, text) {
