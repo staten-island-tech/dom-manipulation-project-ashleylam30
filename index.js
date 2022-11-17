@@ -1,23 +1,17 @@
 //use queryselector when connecting element with a class
 //use getelementbyid when connecting element with id
-/* const DOMSelectors = {
+const DOMSelectors = {
   button: document.getElementById("btn"),
   text: document.querySelector("#text"),
-  point: document.querySelectorAll(".point"),
-  box: document.getElementById("bigblackbox"),
 };
 
-function backgroundAndText(background, text) {
-  background.style.backgroundColor = "blue";
-  text.innerHTML = "This is now a big blue box";
-  text.style.fontSize = "50px";
+function createElement() {
+  let;
 }
-backgroundAndText(DOMSelectors.box, DOMSelectors.text); */
-const body = document.body;
-const div = document.createElement("div");
-div.innerHTML = "<strong>SLAY CAPYBARA MEOW</strong>";
 
-body.append(div);
-
-const DOMSelectors = {};
-const div = document.getElementById();
+// function backgroundAndText(background, text) {
+//   background.style.backgroundColor = "blue";
+//   text.innerHTML = "This is now a big blue box";
+//   text.style.fontSize = "50px";
+// }
+// backgroundAndText(DOMSelectors.box, DOMSelectors.text);
