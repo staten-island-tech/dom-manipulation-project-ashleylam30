@@ -15,9 +15,9 @@ function clearInput() {
 }
 
 function createElement() {
+
   displayInput();
   clearInput();
 }
 
 DOMSelectors.button.addEventListener("click", createElement); // when clicked, call createElement()
-//
