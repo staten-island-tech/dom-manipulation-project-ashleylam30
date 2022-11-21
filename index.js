@@ -1,5 +1,6 @@
 const DOMSelectors = {
   button: document.getElementById("btn"),
+  /*  button: document.getElementById("btn2"), */
   input: document.getElementById("input"),
 };
 
@@ -15,9 +16,13 @@ function clearInput() {
 }
 
 function createElement() {
-
   displayInput();
   clearInput();
+  removeObject();
+}
+function removeObject() {
+  const remove = DOMSelectors.input.value;
+  remove.remove();
 }
 
 DOMSelectors.button.addEventListener("click", createElement); // when clicked, call createElement()
